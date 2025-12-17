@@ -1,48 +1,49 @@
-\# DIP Project – Satellite Image Change Detection
+# DIP Project – Satellite Image Change Detection
 
+This project is submitted as part of the **Digital Image Processing (DIP)** course.
 
+---
 
-This project is submitted as part of the Digital Image Processing (DIP) course.
+## Project Description
 
+This project focuses on detecting changes between **multi-temporal satellite images**
+using **Digital Image Processing (DIP)** techniques.  
+It helps identify variations such as **urban growth, vegetation change, and land-use
+modification** by comparing satellite images captured at different time periods.
 
+---
 
-\## Project Description
+## Techniques Used
 
-This project focuses on detecting changes between multi-temporal satellite images using Digital Image Processing (DIP) techniques. It helps identify variations such as urban growth, vegetation change, and land-use modification by comparing images captured at different time periods.
+- Digital Image Processing (DIP)
+- Image Preprocessing
+- Change Detection Algorithms
+- Satellite Image Analysis
+- Deep Learning–based Segmentation Models (experimental)
 
+---
 
+## Folder Structure
 
-\## Techniques Used
+- `7_classes/`  
+  Core implementation and Jupyter notebooks for change detection.
 
-\- Digital Image Processing (DIP)
+- `segformer/`  
+  SegFormer-based experiments (documentation and code only).
 
-\- Image Preprocessing
+- `deeplabv3+/`  
+  DeepLabV3+ experiments (documentation and code only).
 
-\- Change Detection Algorithms
+- `unet+++`  
+  UNet++ experiments (documentation and code only).
 
-\- Satellite Image Analysis
+- `stats/`  
+  Evaluation metrics, analysis scripts, and result notebooks.
 
+---
 
+## How to Run
 
-\## Folder Structure
-
-\- `7\_classes/` – Core implementation and Jupyter notebooks
-
-\- `segformer/` – SegFormer-based experiments (documentation only)
-
-\- `deeplabv3+/` – DeepLabV3+ experiments (documentation only)
-
-\- `unet+++` – UNet++ experiments (documentation only)
-
-\- `stats/` – Evaluation metrics and results (documentation only)
-
-
-
-\## Note
-
-Due to GitHub size limitations, datasets and trained model weights are not included in this repository.
-
-Only source code, notebooks, and documentation are provided.
-
-
-
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Tushar-1208-cyber/DIP_PROJECT.git
