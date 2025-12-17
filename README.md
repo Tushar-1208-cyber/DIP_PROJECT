@@ -47,3 +47,12 @@ modification** by comparing satellite images captured at different time periods.
 1. Clone the repository:
    ```bash
    git clone https://github.com/Tushar-1208-cyber/DIP_PROJECT.git
+
+
+## Full Project Files (Dataset & Models)
+
+Due to GitHub file size limitations, the complete dataset, trained model
+weights, and result/output files are hosted on Google Drive.
+
+Google Drive link:
+https://drive.google.com/drive/folders/1jzjhcUEPKG5avhyj2y0N0mdj2DTTp6xM?usp=drive_link
