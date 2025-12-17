@@ -1,27 +1,54 @@
-# Datasets
+# ===============================
+# DATASETS (never upload)
+# ===============================
 Dataset/
 data/
 datasets/
 
-# Model outputs / checkpoints
+# ===============================
+# LARGE MODEL / EXPERIMENT FOLDERS
+# (show folder, ignore heavy files)
+# ===============================
+segformer/*
+!segformer/README.md
+
+deeplabv3+/*
+!deeplabv3+/README.md
+
+unet+++/*
+!unet+++/README.md
+
+stats/*
+!stats/README.md
+
+# ===============================
+# MODEL OUTPUTS / CHECKPOINTS
+# ===============================
 *.h5
 *.pt
 *.pth
 *.ckpt
 
-# Zips
+# ===============================
+# ARCHIVES
+# ===============================
 *.zip
+*.rar
+*.7z
 
-# Jupyter
+# ===============================
+# JUPYTER
+# ===============================
 .ipynb_checkpoints/
 
-# Python cache
+# ===============================
+# PYTHON CACHE
+# ===============================
 __pycache__/
 *.pyc
 
-# Logs / stats (agar heavy)
-stats/
-
-# Virtual env
+# ===============================
+# ENVIRONMENTS
+# ===============================
 venv/
 .env/
