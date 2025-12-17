@@ -1,0 +1,27 @@
+# Datasets
+Dataset/
+data/
+datasets/
+
+# Model outputs / checkpoints
+*.h5
+*.pt
+*.pth
+*.ckpt
+
+# Zips
+*.zip
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Logs / stats (agar heavy)
+stats/
+
+# Virtual env
+venv/
+.env/
