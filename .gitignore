@@ -1,54 +1,9 @@
-# ===============================
-# DATASETS (never upload)
-# ===============================
-Dataset/
-data/
-datasets/
-
-# ===============================
-# LARGE MODEL / EXPERIMENT FOLDERS
-# (show folder, ignore heavy files)
-# ===============================
-segformer/*
-!segformer/README.md
-
-deeplabv3+/*
-!deeplabv3+/README.md
-
-unet+++/*
-!unet+++/README.md
-
-stats/*
-!stats/README.md
-
-# ===============================
-# MODEL OUTPUTS / CHECKPOINTS
-# ===============================
-*.h5
-*.pt
-*.pth
-*.ckpt
-
-# ===============================
-# ARCHIVES
-# ===============================
+# Ignore only truly unnecessary files
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
 *.zip
 *.rar
 *.7z
-
-# ===============================
-# JUPYTER
-# ===============================
-.ipynb_checkpoints/
-
-# ===============================
-# PYTHON CACHE
-# ===============================
-__pycache__/
-*.pyc
-
-# ===============================
-# ENVIRONMENTS
-# ===============================
 venv/
 .env/
